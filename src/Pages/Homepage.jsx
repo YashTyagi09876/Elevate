@@ -4,9 +4,9 @@ import bg1 from "../assets/Bgimg.png";
 import rightimg from '../assets/Homeright.png'
 import Home1 from '../assets/Home.png'
 import Section1 from '../Component/Homepagecompontent/Section1'
-import Star1 from '../assets/star1.svg'
-import Star2 from '../assets/star2.svg'
-import Star3 from '../assets/star3.svg'
+import Star1 from '../assets/Star1.svg'
+import Star2 from '../assets/Star2.svg'
+import Star3 from '../assets/Star3.svg'
 import Section2 from '../Component/Homepagecompontent/Section2';
 import Section3 from '../Component/Homepagecompontent/Section3';
 import Section4 from '../Component/Homepagecompontent/Section4'
