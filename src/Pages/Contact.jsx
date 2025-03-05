@@ -3,7 +3,7 @@ import bg1 from "../assets/Bgimg.png";
 import Navbar from "../Component/Navbar";
 import { useState } from "react";
 import { Mail,  Phone } from "lucide-react";
-import bgform from "../assets/bgcontact.png";
+import bgform from "../assets/bgContact.png";
 import Section from '../Component/Contactcompontent/Section';
 function Contact() {
   const [formData, setFormData] = useState({

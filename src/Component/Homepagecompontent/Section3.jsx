@@ -1,9 +1,7 @@
 import React from 'react'
 import bg1 from '../../assets/Homebg1.png'
 import bg2 from '../../assets/Homebg2.png'
-import icon1 from '../../assets/Icon1.png'
-import icon2 from '../../assets/Icon2.png'
-import icon3 from '../../assets/Icon3.png'
+
 function Section3() {
   const stats = [
     { id: 1, value: "20+", label: "Years of Excellent" },
