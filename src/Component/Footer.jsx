@@ -3,17 +3,17 @@ import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import logo from "../assets/Logo2.png";
 function Footer() {
   return (
-    <footer className="bg-[#073C3F] text-white  pt-10 px-4 md:px-10 lg:px-20 py-10 ">
-      <div className="flex flex-wrap justify-between">
+    <footer className="bg-[#073C3F] text-white  pt-10 px-4 md:px-10 lg:px-20 py-10 radio-canada-big">
+      <div className=" w-full flex flex-col md:flex-row   md:justify-between ">
         {/* Left Section */}
-        <div className=" w-1/2 ">
+        <div className=" md:w-1/2 w-full px-4 ">
           <h2 className="text-2xl font-semibold flex  gap-2">
             <img src={logo} alt="Logo" className="h-10 md:h-20" />
           </h2>
-          <p className="mt-2 text-gray-300 text-[21.11px] w-[70%]">
+          <p className="mt-2 text-gray-300 md:text-[21.11px] text-[14px] md:w-[70%] w-full">
           Contact us for the business and startups Contact us for the business and startups
           </p>
-          <div className="mt-4  md:w-[60%] w-[30%] text-white   flex rounded-2xl overflow-hidden relative py-2 border-2 border-gray-600">
+          <div className="mt-4  md:w-[60%] w-full text-white   flex rounded-2xl overflow-hidden relative py-2 border-2 border-gray-600">
             <input
               type="email"
               placeholder="Enter your email"
@@ -23,7 +23,7 @@ function Footer() {
               Subscribe
             </button>
           </div>
-          <div className="flex gap-4 mt-6 text-xl">
+          <div className="flex gap-4 mt-6 text-xl px-4 p-6">
             <FaFacebookF  size={16} className="hover:bg-white  hover:text-[#4a9274]  rounded-full"  />
             <FaLinkedinIn size={20} className="hover:bg-white  hover:text-[#4a9274]  rounded-full" />
             <FaTwitter    size={20} className="hover:bg-white  hover:text-[#4a9274]  rounded-full"/>
@@ -31,7 +31,7 @@ function Footer() {
         </div>
 
         {/* Links */}
-        <div className="  grid grid-cols-1 md:grid-cols-3  gap-8">
+        <div className="  grid  grid-cols-2 sm:grid-cols-2 md:grid-cols-3   gap-8 py-4 px-4">
       
         <div >
           <h3 className="text-lg font-semibold">Links</h3>
@@ -56,7 +56,7 @@ function Footer() {
         </div>
 
         {/* Contact */}
-        <div>
+        <div className="">
           <h3 className="text-lg ">Contact Us</h3>
           <p className="mt-2 text-gray-300">Sample@gmail.com</p>
           <p className="text-gray-300">+1 (430) 5255-0103</p>

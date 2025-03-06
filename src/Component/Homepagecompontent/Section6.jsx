@@ -4,7 +4,7 @@ import { IoMdStar } from "react-icons/io";
 // import startup from '../assets/startup.jpg'
 const Section6 = () => {
     return (
-        <div className=' h-auto flex md:flex-row flex-col gap-10 lg:gap-30 px-6 lg:px-10 xl:px-20 py-6 lg:py-10   justify-center  bg-[#f3f7f5]'>
+        <div className=' h-auto flex md:flex-row flex-col gap-10 lg:gap-30 px-6 lg:px-10 xl:px-20 py-6 lg:py-20   justify-center  bg-[#f3f7f5]'>
             <div className='w-full lg:w-[60%] '>
                 <div className='flex flex-col lg:gap-4'>
                     <h1 className='text-xl md:text-2xl lg:text-[60px] font-bold text-[#03393C]'>Reviews from our Student</h1>

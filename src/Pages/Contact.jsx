@@ -111,7 +111,7 @@ function Contact() {
   };
 
   return (
-    <div className="bg-[#b1cdc3] w-full h-auto relative pt-10 px-4 md:px-10 lg:px-20 py-10">
+    <div className="bg-[#b1cdc3] w-full h-auto relative pt-10 px-4 md:px-10 lg:px-20 py-10  radio-canada-big ">
       <div className="w-full relative z-50">
         <Navbar />
       </div>
@@ -121,7 +121,7 @@ function Contact() {
         {/* Left Section - Contact Details */}
          
      
-        <div className="space-y-6 ">
+        <div className="space-y-6 pt-8 md:pt-0 ">
         
         <div>
           <h1 className="w-full text-[#104042] font-bold md:text-[90.48px] py-1 text-2xl ">

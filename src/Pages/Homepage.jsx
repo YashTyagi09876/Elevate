@@ -14,8 +14,8 @@ import Section5 from '../Component/Homepagecompontent/Section5'
 import Section6 from '../Component/Homepagecompontent/Section6'
 const Homepage = () => {
     return (
-        <div className=''>
-            <div className="bg-[#f3f7f5] w-full h-auto  relative pt-10 px-8 md:px-10 lg:px-20 py-10">
+        <div className='radio-canada-big'>
+            <div className="bg-[#f3f7f5] w-full h-auto  relative pt-10 px-8 md:px-10 lg:px-20 py-10  ">
                 <div className="w-full relative z-50">
                     <Navbar />
                 </div>

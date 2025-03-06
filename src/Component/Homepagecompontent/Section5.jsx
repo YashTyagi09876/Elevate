@@ -82,7 +82,7 @@ const Section5 = () => {
     };
  
     return (
-        <div className='w-full h-auto  bg-[#03393c]  '>
+        <div className='w-full h-auto   bg-[#03393c]  '>
             <div className='    pt-10 px-4 md:px-10 lg:px-20 py-10'>
             <div className='flex items-center justify-between'>
                 <h1 className='text-[#ffffff] text-base md:text-[4xl] lg:text-[73px] font-bold'>Expert Mentor For Students</h1>
