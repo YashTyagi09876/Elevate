@@ -9,6 +9,7 @@ import Bootcamps from "./Pages/Bootcamps.jsx";
 import Footer from "./Component/Footer.jsx";
 import MasterClass from "./Pages/MasterClass.jsx";
 import Ourmentors from './Pages/Ourmentors.jsx'
+import About from './Pages/About.jsx'
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Router>
@@ -18,6 +19,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/bootcamps" element={<Bootcamps/>} />
        <Route path="/masterclass"element={<MasterClass/>}/>
        <Route path="/ourmentors" element={<Ourmentors/>}/>
+       <Route path="/about" element={<About/>}/>
       </Routes>
       <Footer />
     </Router>
