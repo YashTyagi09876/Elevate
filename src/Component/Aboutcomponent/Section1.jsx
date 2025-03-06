@@ -1,6 +1,6 @@
 import React from 'react';
 import bg2 from '../../assets/Aboutimg.svg'
-import star1 from '../../assets/star1.svg'
+import star1 from '../../assets/Star1.svg'
 const Section1 = () => {
     return (
         <div className="flex flex-col md:flex-row  justify-between gap-20 lg:gap-6  py-6 lg:py-12 ">
